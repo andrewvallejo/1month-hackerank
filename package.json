@@ -1,0 +1,12 @@
+{
+  "name": "1month-hackerank",
+  "version": "1.0.0",
+  "description": "The one month hackerank kit",
+  "main": "index.js",
+  "author": "Andrew Vallejo",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "repository": "git@github.com:andrewvallejo/1month-hackerank.git",
+  "license": "MIT"
+}
