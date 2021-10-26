@@ -1,4 +1,4 @@
-// Flipping bits \\
+// Flipping bits \\ [Incomplete]
 // Did not complete due to the lack of understanding on the problem.
 /*
 You will be given a list of 32 bit unsigned integers. 

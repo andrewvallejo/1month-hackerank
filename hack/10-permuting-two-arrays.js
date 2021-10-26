@@ -1,4 +1,4 @@
-// //Permuting Two Arrays\\
+// //Permuting Two Arrays\\ [Incomplete]
 // /*
 // There are two arrays of numbers, called A and B
 // permutationsArray
