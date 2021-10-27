@@ -51,11 +51,11 @@ console.log(r)
 
 // Test Suite #2
  
-// i = {s: 'Always-Look-on-the-Bright-Side-of-Life', k: 5} 
-// a = caesarCipher(i.s, i.k)
-// e = 'Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj'
-// r = test(a, e)
-// console.log(r) 
+i = {s: 'Always-Look-on-the-Bright-Side-of-Life', k: 5} 
+a = caesarCipher(i.s, i.k)
+e = 'Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj'
+r = test(a, e)
+console.log(r) 
 
 
 
