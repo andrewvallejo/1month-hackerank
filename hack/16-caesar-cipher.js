@@ -1,4 +1,4 @@
-//Caesar Cipher\\ INCOMPLETE
+//Caesar Cipher\\ 
 /* 
 Caesar's cipher shifts each letter by a number of letters. 
   If the shift takes you past the end of the alphabet, 
@@ -22,15 +22,14 @@ Output = Rotated String
 */
 
 let i, o, a, e, r, s, k, 
-test = (a, e) => a === e ? true : `a:${a} !== e${e}`,
+test = (a, e) => a === e ? true : `a:${a} !== e:${e}`,
   caesarCipher = (s, k) => {
-    return transcription = s.split('').reduce((acc, currChar) => {
-      const isLetter = alphabet.find(char => char === currChar)
-      if(!isLetter) acc += currChar
-      let index = alphabet.indexOf(currChar)
-      let newChar = alphabet.reduce(() => (isLetter && alphabet[index + k]) ? alphabet[index + k] : alphabet[index])
-      if (newChar) acc += newChar
-        return acc
+    return s.split('').reduce((acc, currChar) => {
+      const isLetter = alphabet.find(char => char === currChar.toLowerCase())
+      const isCapitalized = currChar === currChar.toUpperCase() 
+      const index = alphabet.indexOf(currChar.toLowerCase())
+      if (!isLetter) return acc += currChar
+      return isCapitalized ? acc += alphabet[(index + k) % 26].toUpperCase() : acc += alphabet[(index + k) % 26]     
     },'')
   },  
   alphabet = [
