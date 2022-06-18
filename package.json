@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Andrew Vallejo",
   "devDependencies": {
-    "nodemon": "^2.0.14"
+    "nodemon": "^2.0.15"
   },
   "repository": "git@github.com:andrewvallejo/1month-hackerank.git",
   "license": "MIT"
